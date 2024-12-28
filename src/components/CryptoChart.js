@@ -12,7 +12,7 @@ const CryptoChart = ({ symbol }) => {
         } else {
           const script = document.createElement("script");
           script.src = "https://s3.tradingview.com/tv.js";
-          script.onload = resolve; // Resolve the promise when the script loads
+          script.onload = resolve; 
           document.head.appendChild(script);
         }
       });
