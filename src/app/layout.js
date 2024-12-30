@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         {children}
 
         {/* Add the TradingView widget initialization */}
-        <Script id="tradingview-widget-init" strategy="lazyOnload">
+        {/* <Script id="tradingview-widget-init" strategy="lazyOnload">
           {`
             new window.TradingView.widget({
               width: "100%",
@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
               container_id: "tradingview-widget"
             });
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );
